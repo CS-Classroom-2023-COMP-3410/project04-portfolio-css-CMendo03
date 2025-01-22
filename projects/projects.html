@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="projectsstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="plant-placeholder">
+            <img src="../images/baby4.png" alt="Plant Placeholder Baby 4">
+        </div>
+        <h1>My Projects</h1>
+        <!-- Navbar using Bootstrap for Hamburger Menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <!-- Toggler for smaller screens -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about/about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../projects/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../favorites/favorites.html">Favorites</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Project List</h2>
+        <ul>
+            <li>
+                <strong>Book Store Management Application</strong><br>
+                Developed a Python-based bookstore search interface using tkinter, with separate tabs for Author, Category, and Publisher searches.<br>
+                Implemented a Data Access Object (DAO) to manage MySQL database connections and ensure separation between the GUI and database.<br>
+                Designed interface classes to support search functionalities and dynamically update search results based on user selections.
+            </li>
+
+            <li>
+                <strong>Mini Linux Shell</strong><br>
+                Developed a Custom Linux Shell in C: Created a shell program that supports command parsing, directory navigation, process management with fork/execvp, and background task handling.<br>
+                Implemented Input/Output Redirection and Command History: Enhanced the shell with redirection capabilities and integrated a history feature for efficient recall and execution of past commands, handling up to 100 recent commands.<br><br>
+
+                <p>Here's a basic Linux shell video and how it would work:</p>
+
+
+                <!-- Adding the youtube video -->
+                <iframe src="https://www.youtube.com/embed/RuWVDz-48-o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </li>
+
+            <li>
+                <strong>Forest Fire Simulation and Probability Analysis</strong><br>
+                Designed and implemented a Python program to simulate forest fires using different search algorithms and calculate the probability of fire spreading based on forest density.<br>
+                Conducted Monte Carlo simulations on forests with different densities to estimate fire spread probabilities using Python's plotting library.<br>
+                Developed a sophisticated simulation program to replicate real-world forest fire behavior, laying the foundation for future research aimed at optimizing firefighting strategies.
+            </li>
+
+            <li>
+                <strong>Optimization of Bitstring and Strategy Evolution using Genetic Algorithms</strong><br>
+                <table>
+                    <tr>
+                        <th>Optimization Type</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td>Optimized Genetic Algorithm</td>
+                        <td>Implemented a Genetic Algorithm to maximize ones in a 20-bit genome using a population of 100 genomes, achieving an average best fitness of 19 across 50 generations with a 70% crossover rate and 0.1% mutation rate.</td>
+                    </tr>
+                    <tr>
+                        <td>Evolved Robot Strategy</td>
+                        <td>Developed a Genetic Algorithm for Robby’s World with a 243-character genome, achieving a peak fitness score by evolving strategies across 300 generations with a 100-genome population and a 1.0 crossover rate.</td>
+                    </tr>
+                    <tr>
+                        <td>Data-Driven GA Analysis</td>
+                        <td>Conducted 50 trials, systematically varying mutation and crossover rates, demonstrating a 20% decrease in optimal solution time when using a crossover rate of 70% and mutation rate of 0.1%. Documented results with detailed performance graphs.</td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+
+        <!-- Placeholder for a project image -->
+        <img src="../images/project.png" alt="Project Image">
+    </main>
+
+    <!-- Add Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

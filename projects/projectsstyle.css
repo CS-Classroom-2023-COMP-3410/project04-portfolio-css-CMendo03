@@ -1,0 +1,141 @@
+body {
+    background-color: #323201 !important;
+    color: #ffffff !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #014421;
+    position: relative;
+}
+
+.plant-placeholder {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ffffff;
+    background-color: #014421;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plant-placeholder img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #9b59b6;
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+ul {
+    margin: 20px 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #014421;
+}
+
+td {
+    background-color: #333;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1, header h2 {
+        font-size: 1.5rem;
+    }
+
+    .plant-placeholder {
+        width: 60px;
+        height: 60px;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    header h1, header h2 {
+        font-size: 1.2rem;
+    }
+
+    .plant-placeholder {
+        top: 5px;
+        right: 5px;
+    }
+
+    table, th, td {
+        font-size: 12px;
+    }
+
+    iframe {
+        height: 220px;
+    }
+}
